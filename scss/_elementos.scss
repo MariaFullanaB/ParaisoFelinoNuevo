@@ -1,0 +1,18 @@
+/* Elementos */
+
+#carouselExampleIndicators, iframe {
+    transform: scale(0.9);
+  }
+  
+  /*CARDS*/
+  
+  .card {
+    margin: 20px;
+  }
+  
+  .card-body:hover {
+    font-size: larger;
+    font-style: italic;
+    color: rgb(74, 28, 28);
+  }
+  

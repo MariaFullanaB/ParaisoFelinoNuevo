@@ -1,0 +1,25 @@
+
+
+.logo {
+    width: 150px;
+    display: flex;
+}
+
+.navbar {
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-link {
+    font-size: 18px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: rgb(40, 33, 33);
+    font-weight: bold;
+}

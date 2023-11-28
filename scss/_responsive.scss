@@ -1,0 +1,25 @@
+/* Tablets */
+@media screen and (min-width: 768px) {
+    .navbar-nav {
+      gap: 15px;
+    }
+  
+    .nav-link {
+      font-size: 20px;
+      padding: 12px 18px;
+      font-weight: bold;
+      color: rgb(40, 33, 33);
+    }
+  }
+  
+  /* Laptops */
+  @media screen and (min-width: 1200px) {
+    .navbar-nav {
+      gap: 20px;
+    }
+  
+    .nav-link {
+      font-size: 22px;
+      padding: 15px 20px;
+    }
+  }
