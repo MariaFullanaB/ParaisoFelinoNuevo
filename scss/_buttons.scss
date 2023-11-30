@@ -1,9 +1,6 @@
 .btn {
-    color: rgb(253, 253, 253);
-    background-color: rgb(74, 28, 28);
-    border: none;
-    border-radius: 15px;
-    padding: 10px;
+    @include button;
+    background: radial-gradient(#ae9c8f,#7a695d) ;
   }
 
 .btn:hover {

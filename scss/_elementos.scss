@@ -1,11 +1,27 @@
-/* Elementos */
+#carouselExampleIndicators {
+    max-width: 800px; 
+    margin: 0 auto; 
+
+}
+
+#carouselExampleIndicators img {
+    max-width: 100%; 
+    height: auto; 
+} 
+
+.carousel-control-prev,
+.carousel-control-next {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
 
 #carouselExampleIndicators, iframe {
     transform: scale(0.9);
   }
   
-  /*CARDS*/
-  
+
   .card {
     margin: 20px;
   }
@@ -15,4 +31,9 @@
     font-style: italic;
     color: rgb(74, 28, 28);
   }
-  
+
+  .imagen-principal {
+    max-width: 100%; /* Hacer que la imagen sea 100% del ancho del contenedor padre */
+    height: auto; /* Mantener la proporción de la imagen */
+    margin-bottom: 20px;
+}
