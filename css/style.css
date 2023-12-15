@@ -13,7 +13,7 @@ body {
 }
 
 .logo {
-  width: 200px;
+  width: 180px;
   display: flex;
 }
 
@@ -48,6 +48,13 @@ footer {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
+  justify-content: center;
+}
+
+.imagenesFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgBtnIg {
@@ -71,8 +78,7 @@ footer {
   text-decoration: underline;
 }
 
-/* Tablets */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 720px) {
   .navbar-nav {
     gap: 15px;
   }
@@ -83,8 +89,7 @@ footer {
     color: white;
   }
 }
-/* Laptops */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 960px) {
   .navbar-nav {
     gap: 20px;
   }
@@ -135,10 +140,8 @@ h2 {
   margin: 20px;
 }
 
-.card-body:hover {
-  font-size: larger;
-  font-style: italic;
-  color: rgb(74, 28, 28);
+.card:hover {
+  font-weight: bold;
 }
 
 .imagen-principal {
@@ -153,10 +156,8 @@ h2 {
   margin: 50px;
 }
 
-.textoQuinta {
-  font-size: 18px;
-  padding: 10px;
-  margin: 20px;
+.bold {
+  font-weight: bold;
 }
 
 .btn {
@@ -165,6 +166,8 @@ h2 {
   border-radius: 15px;
   padding: 10px;
   background: radial-gradient(#ae9c8f, #7a695d);
+  justify-content: center;
+  align-items: center;
 }
 
 .btn:hover {

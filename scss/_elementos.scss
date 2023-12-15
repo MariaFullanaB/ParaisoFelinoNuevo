@@ -25,15 +25,16 @@
   .card {
     margin: 20px;
   }
-  
-  .card-body:hover {
-    font-size: larger;
-    font-style: italic;
-    color: rgb(74, 28, 28);
-  }
+
+.card:hover {
+    font-weight: bold;
+}
 
   .imagen-principal {
     max-width: 100%; /* Hacer que la imagen sea 100% del ancho del contenedor padre */
     height: auto; /* Mantener la proporción de la imagen */
     margin-bottom: 20px;
 }
+
+
+  

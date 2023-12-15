@@ -10,7 +10,15 @@ footer {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    justify-content: center;
 }
+
+.imagenesFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
 
 .imgBtnIg {
     width: 30px;
