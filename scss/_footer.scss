@@ -17,8 +17,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
+}
+
 
 .imgBtnIg {
     width: 30px;
@@ -31,13 +31,9 @@ footer {
 }
 
 
-        .footer a {
-            display: inline-block;
-            margin: 0 10px;
-            text-decoration: none;
-            text-align: center;
-        }
-
-        .footer a:hover {
-            text-decoration: underline; 
-        }
+.footer a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    text-align: center;
+}

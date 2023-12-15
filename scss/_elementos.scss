@@ -1,13 +1,13 @@
 #carouselExampleIndicators {
-    max-width: 800px; 
-    margin: 0 auto; 
+    max-width: 800px;
+    margin: 0 auto;
 
 }
 
 #carouselExampleIndicators img {
-    max-width: 100%; 
-    height: auto; 
-} 
+    max-width: 100%;
+    height: auto;
+}
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -17,24 +17,23 @@
     box-shadow: none;
 }
 
-#carouselExampleIndicators, iframe {
+#carouselExampleIndicators,
+iframe {
     transform: scale(0.9);
-  }
-  
+}
 
-  .card {
+
+.card {
     margin: 20px;
-  }
+}
 
 .card:hover {
     font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
 }
 
-  .imagen-principal {
-    max-width: 100%; /* Hacer que la imagen sea 100% del ancho del contenedor padre */
-    height: auto; /* Mantener la proporción de la imagen */
+.imagen-principal {
+    max-width: 100%;
+    height: auto;
     margin-bottom: 20px;
 }
-
-
-  
